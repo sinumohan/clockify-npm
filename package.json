@@ -4,7 +4,7 @@
   "description": "Rest Client for Clockify https://clockify.me",
   "main": "app.js",
   "scripts": {
-    "test": "test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,9 @@
   "homepage": "https://github.com/sinumohan/clockify-npm#readme",
   "dependencies": {
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^6.1.4"
   }
 }
