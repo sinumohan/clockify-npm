@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/sinumohan/clockify-npm/issues"
   },
-  "homepage": "https://github.com/sinumohan/clockify-npm#readme"
+  "homepage": "https://github.com/sinumohan/clockify-npm#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
