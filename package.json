@@ -1,6 +1,6 @@
 {
   "name": "clockify-npm",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Rest Client for Clockify https://clockify.me",
   "main": "app.js",
   "scripts": {
