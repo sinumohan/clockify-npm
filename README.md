@@ -1,10 +1,10 @@
 # clockify-npm
-Rest Client for Clockify https://clockify.me
+A wraper for  https://clockify.me REST APIs, for API docs Please refer https://clockify.me/developers-api
 
-Npm https://www.npmjs.com/package/clockify-npm
+NPM https://www.npmjs.com/package/clockify-npm
 
 
-###Examples
+##Examples
 ```
 const Clockify = require('clockify-npm');
 
@@ -13,14 +13,14 @@ Clockify.SetKey('YOUR_API_KEY');
 Clockify.Workspaces.get()
     .then((data) => {
         console.log(data)
-    }).catch(function(err){
+    }).catch((err) => {
         console.error(err);
     })
 
 Clockify.Workspaces.add('My Work Space')
     .then((data) => {
         console.log(data)
-    }).catch(function(err){
+    }).catch((err) => {
         console.error(err);
     })
 ```
