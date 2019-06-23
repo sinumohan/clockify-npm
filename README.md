@@ -4,8 +4,8 @@ Rest Client for Clockify https://clockify.me
 Npm https://www.npmjs.com/package/clockify-npm
 
 
-#Examples
-
+###Examples
+```
 const Clockify = require('clockify-npm');
 
 Clockify.SetKey('YOUR_API_KEY');
@@ -23,3 +23,4 @@ Clockify.Workspaces.add('My Work Space')
     }).catch(function(err){
         console.error(err);
     })
+```
