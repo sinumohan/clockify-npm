@@ -1,0 +1,26 @@
+{
+  "name": "clockify-npm",
+  "version": "0.0.1",
+  "description": "Rest Client for Clockify https://clockify.me",
+  "main": "app.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sinumohan/clockify-npm.git"
+  },
+  "keywords": [
+    "clockify",
+    "npm",
+    "js",
+    "time",
+    "tracker"
+  ],
+  "author": "Sinu Mohan <sinumohan777@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sinumohan/clockify-npm/issues"
+  },
+  "homepage": "https://github.com/sinumohan/clockify-npm#readme"
+}
