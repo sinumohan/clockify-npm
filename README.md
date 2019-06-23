@@ -24,3 +24,5 @@ Clockify.Workspaces.add('My Work Space')
         console.error(err);
     })
 ```
+
+[![CircleCI](https://circleci.com/gh/sinumohan/clockify-npm/tree/master.svg?style=svg)](https://circleci.com/gh/sinumohan/clockify-npm/tree/master)
