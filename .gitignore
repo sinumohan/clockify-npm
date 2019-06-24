@@ -61,3 +61,4 @@ typings/
 .next
 #keyfile for testing
 *.key
+*.code-workspace
