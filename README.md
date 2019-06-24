@@ -1,10 +1,14 @@
 # clockify-npm
-A wraper for  https://clockify.me REST APIs, for API docs Please refer https://clockify.me/developers-api
 
-NPM https://www.npmjs.com/package/clockify-npm
+> A wraper for [Clockify](https://clockify.me) REST APIs. 
+> For API docs Please refer [developers-api](https://clockify.me/developers-api). 
 
+> [NPM Package](https://www.npmjs.com/package/clockify-npm).
 
-##Examples
+### Installation
+``` npm install clockify-npm ```
+
+### Examples
 ```
 const Clockify = require('clockify-npm');
 
