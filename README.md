@@ -14,6 +14,7 @@ const Clockify = require('clockify-npm');
 
 Clockify.SetKey('YOUR_API_KEY');
 
+// Get all Workspaces of the current User
 Clockify.Workspaces.get()
     .then((data) => {
         console.log(data)
@@ -21,6 +22,7 @@ Clockify.Workspaces.get()
         console.error(err);
     })
 
+// Create a new Workspace
 Clockify.Workspaces.add('My Work Space')
     .then((data) => {
         console.log(data)
