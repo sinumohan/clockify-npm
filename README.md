@@ -5,11 +5,11 @@
 
 > [NPM Package](https://www.npmjs.com/package/clockify-npm).
 
-### Installation
+## Installation
 
 `npm install clockify-npm`
 
-### Examples
+## Examples
 
 You can find the different methods under `lib/Workspace.js`.
 
